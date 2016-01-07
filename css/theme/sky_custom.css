@@ -1,0 +1,112 @@
+body {
+    background: #fff;
+    font-family: "Ubuntu", "Open Sans", sans-serif;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Ubuntu", "Open Sans", sans-serif;
+  text-transform: none;
+  line-height: 1em;
+  letter-spacing: -0.06em;
+}
+
+.reveal h2 {
+    margin-top: 1em;
+}
+
+.reveal h3 {
+    /*margin-bottom: 0.5em;*/
+}
+.reveal h3.fin {
+    margin-top: 2em;
+}
+.reveal h3.questions {
+    color:red;
+    font-size: 400%;
+    font-weight: bold;
+}
+
+.reveal code {
+    font-size: 82%;
+}
+
+.reveal .autor {
+    margin-top: 2em;
+    font-size: smaller;
+}
+
+.reveal li {
+    padding-left: 0.25em;
+    line-height: 1.25em;
+    margin-bottom: 0.35em;
+}
+
+.reveal .slides section {
+    height: 100%;
+    margin-top: 5%;
+}
+
+/*  Imágenes  
+.reveal section img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}*/
+
+/*  Segundo nivel de listas  */
+.reveal ul ul {
+    list-style-type: circle;
+    margin-top: 0.25em;
+}
+
+/*  Código fuente  */
+.reveal pre {
+    font-size: 0.8em;
+}
+
+/*********************************************
+ * BARRA SUPERIOR
+ ********************************************/
+
+.reveal div.topbar {
+    background: url("../../images/background_bar_h100_lamma.png") top left repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: -1;
+}
+
+/* Barra superior cuando se visualiza en pantalla */
+.reveal div.topbar .logo {
+    /*background-color: #fff; 
+    /*border: solid #fff 10px;*/
+    border-radius: 15px;*/
+    moz-border-radius: 15px;
+    webkit-border-radius: 15px;
+    position: absolute;
+    top: 0px;
+    right: 1em;
+}
+
+/* Barra superior cuando se imprime */
+.reveal section div.topbar .logo {
+    top: -16px;
+    box-shadow: none;
+}
+
+.reveal .titulo {
+  color: white;
+  text-shadow: none;
+  position: absolute;
+  top: 27px;
+  left: 0.5em;
+  font-size: 0.8em;
+}
